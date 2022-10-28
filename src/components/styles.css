@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  align-items: center;
+  text-align: center;
+  place-items: center;
+  background-color: aliceblue;
+}
+
+.App {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  width: 20em;
+  height: 25em;
+  position: relative;
+  border-radius: 1em;
+  box-shadow: 0 0.188em 1.55em rgb(156, 156, 156);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: space-around;
+}
+.logform {
+  width: 10em;
+  height: 25em;
+  position: center;
+  display: block;
+  align-items: center;
+  justify-content: space-around;
+}
+
+input {
+  border: none;
+  background-color: aliceblue;
+  height: 4em;
+  width: 80%;
+  border-radius: 0.25em;
+  text-align: center;
+  padding: 2em;
+}
+input:focus {
+  outline-color: blue;
+}
+
+.login-btn {
+  width: 40%;
+  height: 3em;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+  border-radius: 0.25em;
+  cursor: pointer;
+  border-color: blue;
+}
+.login-btn:hover {
+  transform: scale(1.25);
+}
+.nav {
+  background-color: rgb(112, 112, 116);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.site-title {
+  font-size: 2rem;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.25rem;
+}
+
+.nav li:hover {
+  background-color: rgba(128, 141, 134, 0.948);
+}
